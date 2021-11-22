@@ -66,13 +66,13 @@ buttons = [
             text="➕️ Add Kanata To Your Group ➕️", url="t.me/Kanatapro_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="About kanata", callback_data="yone_"),
+        InlineKeyboardButton(text="About Kanata", url=f"https://t.me/projectsupdates/36"),
         InlineKeyboardButton(
-            text="Support", url=f"https://t.me/Alvin_Image_Editor_Group"
+            text="Anime Group", url=f"https://t.me/AnimeLovers_group"
         ),
     ],
     [
-        InlineKeyboardButton(text="About kanata", callback_data="yone_"),
+        InlineKeyboardButton(text="Updates", url=f"https://t.me/projectsupdates"),
         InlineKeyboardButton(
             text="Support", url=f"https://t.me/Alvin_Image_Editor_Group"
         ),
