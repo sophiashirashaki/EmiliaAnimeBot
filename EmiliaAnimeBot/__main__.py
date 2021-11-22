@@ -63,32 +63,19 @@ PM_START_TEXT = f"""
 buttons = [
     [
         InlineKeyboardButton(
-            text="🏹Summon ME🏹",url=f"t.me/{BOT_USERNAME}?startgroup=true"
-        ),
+            text="➕️ Add Kanata To Your Group ➕️", url="t.me/Kanatapro_bot?startgroup=true"),
     ],
     [
+        InlineKeyboardButton(text="About kanata", callback_data="yone_"),
         InlineKeyboardButton(
-          text="Commands", callback_data="help_back"
+            text="Support", url=f"https://t.me/Alvin_Image_Editor_Group"
         ),
     ],
     [
-        InlineKeyboardButton(
-          text="📮 Updates", url="https://t.me/TangentXOfficial"
-        ),
-    ],
-         
-    [
-       InlineKeyboardButton(
-           text="🐱 Support", url=f"https://t.me/{SUPPORT_CHAT}"
-         ),
-    ],
-    [
-        InlineKeyboardButton(
-          text="✒ Source", url="https://github.com/IzumiCypherX/EmiliaAnimeBot" # If you have a bit of dignity left in you, Do NOT Remove this Button
-        ),
-     
+        InlineKeyboardButton(text="Commands Help❔", callback_data="help_back"),
     ],
 ]
+
 
 
 HELP_STRINGS = f"""
