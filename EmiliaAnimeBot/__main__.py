@@ -72,6 +72,12 @@ buttons = [
         ),
     ],
     [
+        InlineKeyboardButton(text="About kanata", callback_data="yone_"),
+        InlineKeyboardButton(
+            text="Support", url=f"https://t.me/Alvin_Image_Editor_Group"
+        ),
+    ],
+    [
         InlineKeyboardButton(text="Commands Help❔", callback_data="help_back"),
     ],
 ]
