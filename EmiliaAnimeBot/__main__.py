@@ -52,7 +52,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = f"""
-This is {BOT_NAME}[.]({EMILIA_START_IMG})
+────「 Kanata [カナタ]({EMILIA_START_IMG}) 」────
 
 A Diverse Systematic Bot Written in Python.
 You can Add Me In Your Group for Knowing my True Power.
@@ -92,7 +92,7 @@ buttons = [
 
 
 HELP_STRINGS = f"""
-`Hey there! My name is` [{BOT_NAME}]({EMILIA_HELP_IMG}) 
+`Hey there! My name is` [Kanata カナタ]({EMILIA_HELP_IMG}) 
 I have Quite a Few Features, Go Ahead and Check out!"""
 
 IMPORTED = {}
