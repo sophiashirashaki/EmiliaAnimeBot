@@ -54,10 +54,10 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = f"""
 ────「 Kanata [カナタ]({EMILIA_START_IMG}) 」────
 
-A Diverse Systematic Bot Written in Python.
-You can Add Me In Your Group for Knowing my True Power.
+*A Diverse Systematic Bot Written in Python.*
+*You can Add Me In Your Group for Knowing my True Power.*
 
-You can either use /help or the Commands Button Given Below To get a list of my features!
+*You can either use* /help *or the Commands Button Given Below To get a list of my features!*
 """
 
 buttons = [
@@ -92,8 +92,8 @@ buttons = [
 
 
 HELP_STRINGS = f"""
-`Hey there! My name is` [Kanata カナタ]({EMILIA_HELP_IMG}) 
-I have Quite a Few Features, Go Ahead and Check out!"""
+*Hey there! My name is* [Kanata カナタ]({EMILIA_HELP_IMG}) 
+*I have Quite a Few Features, Go Ahead and Check out!*"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -398,7 +398,7 @@ def get_help(update: Update, context: CallbackContext):
             InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="Back", callback_data="help_back"),
                                 InlineKeyboardButton(
-                                    text="Support", url="https://telegram.dog/TangentChats"
+                                    text="Support", url="https://telegram.dog/Alvin_Image_Editor_Group"
                                 )]]
             ),
         )
